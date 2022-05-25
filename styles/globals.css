@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Courgette&family=Dancing+Script:wght@600;700&family=Josefin+Sans:wght@200;300;400&family=Poppins:wght@200;400&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.tweets img{
+    width: 70%;
+}
+.tweets p{
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.sidebar-navigation{
+    position: fixed;
+} 
+.whatshapen img{
+    border-radius: 50%;
+}
+.tweets-border img{
+    border-radius: 50%;
+}
+
+.twitter-logo i{
+    color: rgb(29, 155, 240);
+    font-size: 30px;
+    cursor: pointer;
+    padding: 13px;
+
+    
+}
+.side-bar-nav a{
+    display: flex;
+    width: 100%;
+    justify-content: revert;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none !important;
+    color: rgb(27, 26, 26);
+    
+}
+
+.side-bar-nav span{
+    margin-left: 17px;
+}
+.side-bar-nav span:hover{
+    color: #000;
+}
+.side-bar-nav:hover{
+    width: 100%;
+    color: rgb(27, 26, 26) !important;
+    background: rgb(230, 224, 224);
+    border-radius: 25px;
+    padding: 15px;
+}
+.side-bar-button{
+    width: 45%;
+}
+.side-bar-button button{
+    width: 70%;
+    height: 40px;
+    color: #fff;
+    background: rgb(29, 155, 240);
+    border-radius: 50px;
+    padding: 6px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+
+.side-bar-nav{
+    padding: 15px;
+    width: 100%;
+    
+}
+.side-bar-nav i{
+    font-size: 22px;
+}
+.home-text p{
+    font-weight: 700;
+}
+
+.anasayfa{
+    border-right: 1px solid rgb(230, 222, 222);
+    border-left: 1px solid rgb(230, 222, 222);
+}
+
+.neler-oluyor input{
+    border: none;
+    outline: none;
+    margin-left: 17px;
+}
+.tweet-input i{
+    color: rgb(29, 155, 240);
+    padding: 5px;
+}
+.tweets small{
+    font-size: 12px !important;
+    font-weight: 600;
+}
+.tweet-input{
+    padding: 7px;
+    
+}
+.footer_section a{
+    font-size: 11px;
+    color:#536471;
+}
+.tweets a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none !important;
+    color: rgb(153, 147, 147);
+    font-size: small;
+    font-weight: 300;
+    font-size: 12px;
+}
+.tweets p{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+.tweets-border{
+    padding: 10px;
+}
+
+.tweets-border:hover{
+    width: 100%;
+    background: rgb(241, 241, 241);
+    transition: .3s;
+}
+
+.fa-comment, .fa-retweet, .fa-heart {
+    font-size: 18px;
+    padding: 5px;
+}
+
+.fa-comment:hover{
+    
+    background-color:rgba(29, 156, 240, 0.253) ;
+    border-radius: 50%;
+    padding: 5px;
+    color: rgb(29, 155, 240);
+    transition: .2s;
+}
+.fa-retweet:hover{
+    
+    background-color:rgba(36, 240, 29, 0.253) ;
+    border-radius: 50%;
+    padding: 5px;
+    color: rgb(90, 184, 28);
+    transition: .3s;
+
+}
+.fa-heart:hover{
+    
+    background-color:rgba(224, 37, 12, 0.253) ;
+    border-radius: 50%;
+    padding: 5px;
+    color: rgb(240, 29, 29);
+    transition: .3s;
+
+}
+.tw-search{  
+    background:rgba(236, 233, 233, 0.37);
+    border-radius: 20px;
+    width: 100%;
+   
+}
+.inp-icn{
+    padding: 10px;
+}
+
+.inp-icn input{
+    border: none;
+    outline: none;
+    background:rgba(236, 233, 233, 0.37);
+    width: 100%;
+    height: 3%;
+}
+.right-hastage{
+    border-radius: 13px;  
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid transparent;
+    background:rgba(236, 233, 233, 0.37);
+}
+.hashtag strong{
+    font-size: 10px;
+}
+.hashtag small{
+    font-size: 10px;
+
+}
+.hastage-gundem{
+    margin-top: 15px;
+}
+.hastage-gundem i{
+    font-size: 14px;
+    color: rgba(168, 166, 166, 0.815);
+}
+.daha-fazla a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #1d9bf0;
+}
+.who-follow img{
+    margin-right: 18px;
+    border-radius: 50%;
+    width: 36%;
+}
+.follow-btn button{
+    background-color: rgb(15, 20, 25);
+    color: rgb(230, 224, 224);
+    font-size: 12px;
+    padding: 6px;
+    border-radius: 20px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+.user-nics strong{
+    font-size: 12px;
+
+}
+.who-follow{
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    background:rgba(236, 233, 233, 0.37);
+}
+.mobile-icon .col-3{
+    text-align: center;
+}
+.sidebar-user-account{
+    position: fixed;
+    width: 43%;
+    bottom: 15px;
+    background: #fff
+}
+.tweets-border{
+    border-bottom: 1px solid rgb(230, 222, 222);
+}
+.post-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px !important;
+    margin-top: 17px;
+}
+.gif video{
+    border-radius: 20px;
+}
+@media screen and (max-width:1115px) {
+    .rightbar{
+      display: none !important; 
+    }
+    .sidebar-user-account{
+        display: none !important;
+    }
+}
+
+
+@media screen and (max-width:768px){
+    .side-bar-nav{
+        display: none;
+    }
+    .twitter-logo{
+        display: none;
+    }
+}
+
+@media screen and (max-width:669px) {
+    .mobile-nav{
+        background: #fff;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 50px;
+    }
+    
+}
+@media screen and (max-width:576px){
+    .martap{
+        margin-top: -45px !important;
+    }
+}
+
+@media only screen and (max-width: 768px){
+   .tweet-item-profile-picture, .twitter-header-none{
+       display: none !important;
+   }
+
+   .anasayfa{
+       margin-top: 15px !important;
+   }
+}
+   
+@media screen and (max-width:765px) {
+ .side-bar-button, .sidebar-user-account, .tw-search, .right-hastage, .who-follow{
+    display: none;
+} 
+input, .sub-tweet, .side-bar-button button{
+    display: none;
+}
+.tweet-input{
+    display: none !important;
+}
+.home-none{
+    display: none !important;
+}
+.post-img img{
+    display: flex;
+}
+.col-md-2{
+    padding: 5px !important;
+}
+.only{
+    margin-top: 30px;
+}
+
+.tweets{
+    border: none;
+}
+
+.home-text img{
+    display: flex !important;
+    justify-content: space-around !important;
+}
+.home-text-icon i{
+    display: none;
+}
+.home-text{
+    width: 100%;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+
+.home-text{
+    display: none !important;
+}
+.post-img img{
+    width: 100%;
+}
+}
+.close-popup{
+    margin-bottom: 10px;
+    width: 30px;
+    border: 1px solid transparent !important;
+    border-radius: 50%;
+}
+
+.popup {
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 40%;
+    background-color: white;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+    transition: 0.25s ease;
+    transform: translateY(0);
+    opacity: 1;
+    z-index: 9999;
+}
+
+
+
+
+.cursor-pointer{
+    cursor: pointer !important;
+}
+
+.tweet-content-image img {
+    width: 100% !important;
+    border-radius: 0px !important;
+}
